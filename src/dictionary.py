@@ -1,5 +1,5 @@
 """Dictionary functions"""
-def dict_sort(dictionary: dict) -> dict:
+def dict_sort(dictionary: dict) -> list:
     """Takes in a dictionary with integer values and outputs a list of the keys sorted by their associated values in descending order."""
     return list(reversed(sorted(dictionary, key=dictionary.__getitem__)))
 

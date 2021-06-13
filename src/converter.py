@@ -1,6 +1,7 @@
 from src.math import convert_to_base, base_to_dec
 from src.dictionary import dict_sort
 
+
 class Converter:
     """A class to convert strings to compact integers using a custom codec/lookup."""
     def __init__(self, lookup=None):
@@ -12,7 +13,7 @@ class Converter:
     
     @classmethod
     def from_codec(codec: str):
-        """Creates a Converter object from a string codec."""
+        """Creates a Converter object from a codec."""
         lookup = {}
         for x in range(len(codec)):
             lookup[codec[x]] = x + 1
