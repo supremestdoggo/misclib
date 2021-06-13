@@ -1,3 +1,4 @@
+"""A library of miscellaneous modules and functions."""
 from src.converter import *
 from src.math import *
 from src.unit_conversion import *

@@ -1,5 +1,4 @@
 """Converts various units back and forth."""
-
 def c_to_f(c):
     """Converts Celsius degrees to Fahrenheit degrees."""
     return c * 9/5 + 32
