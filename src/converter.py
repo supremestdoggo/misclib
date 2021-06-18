@@ -1,5 +1,5 @@
-from src.math import convert_to_base, base_to_dec
-from src.dictionary import dict_sort
+from misc_math import convert_to_base, base_to_dec
+from dictionary import dict_sort
 
 
 class Converter:

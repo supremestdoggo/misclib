@@ -1,12 +1,11 @@
 import setuptools
-from src import __version__
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="misclib",
-    version=__version__,
+    version='0.0.1',
     description="A library of miscellaneous functions.",
     long_description=long_description,
     long_description_content_type="text/markdown",

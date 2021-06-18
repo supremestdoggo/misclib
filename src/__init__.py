@@ -1,5 +1,4 @@
 """A library of miscellaneous modules and functions."""
-from src.converter import *
-from src.math import *
-from src.unit_conversion import *
-__version__ = '0.0.1'
+from converter import *
+from misc_math import *
+from unit_conversion import *
