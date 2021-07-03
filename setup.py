@@ -20,5 +20,5 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.9,<4.0",
+    python_requires=">=3.0,<4.0",
 )
