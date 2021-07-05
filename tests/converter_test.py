@@ -1,4 +1,4 @@
-from src.converter import Converter
+from misclib.converter import Converter
 
 def test_converter():
     converter = Converter()
